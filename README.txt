@@ -1,3 +1,6 @@
+本框架仅支持1.12.2且为转载
+构建完毕后\src\main\java以下的内容可全部删除
+原作者：https://github.com/IdeallandEarthDept/IdeallandFramework
 在这里可以看视频教程
 https://www.bilibili.com/video/BV1Ar4y1K7Qk
 See the video tutorial in the link above (vocal in Chinese).
