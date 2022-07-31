@@ -1,0 +1,34 @@
+{
+  "entity.moroon.ambient":
+  {
+    "category": "entity",
+    "subtitle": "entity.moroon.ambient",
+    "sounds": [{"name":  "idealland:entity/moroon/ambient", "stream":  true}]
+  },
+  "entity.moroon.hurt":
+  {
+    "category": "entity",
+    "subtitle": "entity.moroon.hurt",
+    "sounds": [{"name":  "idealland:entity/moroon/hurt", "stream":  true}]
+  },
+  "mjds.jump": {
+    "category": "entity",
+    "subtitle": "sounds.mjds.jump",
+    "sounds": [
+      {
+        "name": "idealland:mjds/jump",
+        "stream": true
+      }
+    ]
+  },
+  "mjds.fall": {
+    "category": "entity",
+    "subtitle": "sounds.mjds.fall",
+    "sounds": [
+      {
+        "name": "idealland:mjds/fall",
+        "stream": true
+      }
+    ]
+  }
+}

@@ -1,0 +1,165 @@
+# PARSE_ESCAPES
+itemGroup.ideallandMiscTab=理境大厅
+
+# key mapping
+key.category.idealland=理想境键位设置
+key.idealland.activate_skill_offhand=使用副手技能
+key.idealland.activate_skill_mainhand=使用主手技能
+key.idealland.activate_skill_helmet=使用头盔技能（魔眼）
+
+# gui
+idealland.container.custom_chest=笁了
+
+# config
+configgui.idealland.category.Menu0.GeneralConf=综合选项
+idealland.conf.general.blindness_reduce=致盲削减怪物视野比例
+idealland.conf.general.welcome=欢迎词
+idealland.conf.general.skill_rate=摩隆技能掉率
+idealland.conf.general.edict_craftable=可制作圣旨
+
+configgui.idealland.category.Menu0.PerformanceConf=性能配置
+idealland.conf.performance.builder=简化客户端建造器表现
+
+configgui.idealland.category.Menu0.ReviveCurseConf=复生诅咒选项
+idealland.conf.death_box_curse.enabled=落地成盒生效
+idealland.conf.revive_curse.enabled=复生诅咒生效
+idealland.conf.revive_curse.avengeful=复生者复仇
+idealland.conf.revive_curse.child_threshold=小僵尸血量门槛
+idealland.conf.revive_curse.revive_blacklist=不复活这些
+
+configgui.idealland.category.Menu0.HitConf=秒杀诅咒配置
+idealland.conf.one_hit_curse.enabled=诅咒生效
+
+configgui.idealland.category.Menu0.CurseConf=其他诅咒选项
+idealland.conf.sleep_curse.enabled=开启深度睡眠
+
+idealland.conf.level_curse.enabled=等级影响属性
+idealland.conf.level_curse.max_level=等级上限：超过此等级不提升属性了。
+idealland.conf.level_curse.max_speed=最大速度加成比例。 1 = +100%%
+idealland.conf.level_curse.armor_ratio=盔甲加成比例。 1 = 100%%
+idealland.conf.level_curse.init_hp_ratio=初始血量上限加成比例。-0.5 = -50%%
+idealland.conf.parasite_curse.enabled=启用寄生虫感染
+idealland.conf.rain_curse.enabled=启用夜雨匿踪
+idealland.conf.rain_curse.chance=夜晚降雨概率
+
+configgui.idealland.category.Menu0.SpawnConf=刷怪配置
+
+# config
+conf.tainter_req_buff=暴露机制：只在暴露的玩家旁生成染污者
+conf.spawn.enabled=生成摩隆生物
+conf.kill_norm_increase_chance=非摩隆生物提升入侵点数概率
+conf.invasion_length=摩隆入侵时长（秒）
+conf.invasion_period=摩隆入侵周期（入侵点数）
+conf.invasion_period_forcast_threshold=摩隆入侵预警值（需小于入侵周期）
+conf.tainter_buff_spawn_range=染污者生成范围（距离玩家至多这么多格）
+
+configgui.idealland.category.Menu0.EnchantConf=附魔配置
+idealland.conf.enchantment.enable_lover=可以随机到“梁山伯与祝英台”
+idealland.conf.enchantment.enable_lover_death=“梁山伯与祝英台”导致殉情
+idealland.conf.enchantment.min_multiplier=最小伤害系数
+
+configgui.idealland.category.Menu0.DebugConf=调试模式
+idealland.conf.debug.debug_mode=打开调试模式
+idealland.conf.debug.room_size=六方噩梦A房间大小
+idealland.conf.debug.dim_one_id=六方噩梦A维度ID
+idealland.conf.debug.dim_two_id=六方噩梦B维度ID
+idealland.conf.debug.test_dim_id=森罗万象维度ID
+idealland.conf.debug.debug_dim_id=调试维度ID
+idealland.conf.debug.skyland_parse=空岛稀疏度
+idealland.conf.debug.skyland_inc_chance=空岛膨胀率
+idealland.conf.debug.skyland_dec_chance=空岛缩减率
+idealland.conf.debug.helix_delta_y_min=螺旋最小 dY
+idealland.conf.debug.helix_delta_y_range=螺旋 dY 范围
+idealland.conf.debug.erase_snipers=清除摩隆狙击手
+
+configgui.idealland.category.Menu0.WorldGenConf=世界生成配置
+conf.worldGen.world_spine=世界之脊密度
+conf.worldGen.sp_dungeon=摩隆哨站密度
+conf.worldGen.whatnots=杂物密度每区块
+
+configgui.idealland.category.Menu0.SmartDropConfig=智能掉落配置
+idealland.conf.smart_drop.enabled=Smart Drop Enabled
+idealland.conf.smart_drop.drop_heart_chance=怪物掉心率
+idealland.conf.smart_drop.drop_heart_chance_sinful=有罪怪物掉心率
+idealland.conf.smart_drop.drop_hunger_chance=怪物掉食率
+
+# Villager Professions
+entity.Villager.idealland.scryer=占卜者
+entity.Villager.idealland.scryer_0=阴阳师
+entity.Villager.idealland.scryer_1=卜算师
+
+# Enchantments
+enchantment.idealland.test_enchantment=测试期
+
+# Potions
+idealland.potion.deadly=致死
+
+potion.potency.3=III
+potion.potency.4=IV
+
+effect.blindness=失明
+
+potion.effect.idealland.potion.deadly=Deadly
+
+# Entities
+entity.skeleton_tower.name=骷髅望塔
+
+# blocks-dungeon
+tile.adj_lock_on.name=邻接障壁（解锁）
+
+# Items
+item.basic16rune_0.name=0号符文
+item.basic16rune_0.desc=合成材料，其数为0。地母，地与暗之神的符文。
+
+desc.tcg.common=普通
+desc.tcg.uncommon=非普通
+desc.tcg.rare=稀有
+desc.tcg.mythic=SSR
+
+desc.tcg.shared=收集卡牌
+
+idealland.skill.shared.cool_down_desc=冷却: %.1f秒
+idealland.skill.shared.power_desc=伤害: %.1f
+idealland.skill.shared.range_desc=半径: %.1f 格
+idealland.skill.shared.duration_desc=持续: %.1f秒
+idealland.skill.shared.error_desc=误差: +-%d
+idealland.skill.shared.level_desc=等级: %d/%d
+idealland.skill.shared.name_format=%s
+idealland.skill.shared.name_format_with_lv=%s (%s级) %s
+idealland.skill.shared.lv_max=[满]
+
+idealland.shared.skill.desc=[技能物品] 可启动于 %s %s
+idealland.shared.skill.gaze.desc=[魔眼] 装备于头盔栏以使用
+idealland.shared.skill.desc.offhand=副手
+idealland.shared.skill.desc.mainhand=主手
+idealland.shared.skill.desc.xp_gauge=经验值： %s/%s
+idealland.shared.skill.desc.max=[满]
+idealland.shared.skill.desc.passive=[被动技能]
+
+idealland.gua_enhance_list.desc=地%s 雷%s 水%s 山%s \n 泽%s 火%s 风%s 天%s
+idealland.gua_not_applicable.desc=-
+
+idealland.kill_count.desc=杀敌数: %d
+idealland.owner.desc=Owner: %s
+
+idealland.skill.msg.cool_down=冷却中
+
+idealland.temperature.msg.default_temp=Your best-fit temperature is at %s degrees.
+
+idealland.imprint.desc=压印 : "%s"
+
+# Events
+idealland.death_report=检测到 %s 在 %s 死亡
+
+# Advancements
+idealland.advancements.root_h.title=理想境调查员
+idealland.advancements.root_h.description=你的理想境调查员生涯开始了。
+
+
+# Death
+death.attack.example.player=%1$s exampled by %2$s
+death.attack.slam.player=%1$s 被 %2$s 摔至地面
+death.attack.slam.item=%1$s 被 %2$s 用 %3$s 摔至地面
+
+death.attack.martial.player=%1$s 被 %2$s 的格斗技击败
+death.attack.martial.item=%1$s 吃了 %2$s 一招 %3$s
